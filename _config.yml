@@ -1,0 +1,120 @@
+# Site settings
+title: Caleb a wolud-be PD
+SEOTitle: Caleb Blog
+header-img: img/home-bg.jpg
+email: 784716740@qq.com.com
+description: "关于用户研究、交互式设计与生活 | Caleb，Web & Mobile Lover，UX Designer | 这里是 @Caleb 郑志豪的个人博客，记录自己每一天的成长。"
+keyword: "郑志豪, 用户研究, 交互设计, UX, 设计"
+url: "https://zhihaopy.github.io/"              # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+
+# Publish posts or collection documents with a future date.
+future: true
+
+# SNS settings
+RSS: false
+weibo_username:     false
+zhihu_username:     false
+github_username:    zhihaopy
+#facebook_username:  false
+linkedin_username:  e07b02521511
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 6
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+# If you have timezone issue (e.g. #68) in China, uncomment to use this:
+#timezone: CN  
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+# make sure you have this gem installed
+# `$ gem install jekyll-paginate`
+plugins: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+  syntax_highlighter_opts:
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+
+
+# Disqus settings
+disqus_username: false
+
+# Netease settings
+netease_comment: false
+
+
+
+# Analytics settings
+# Baidu Analytics 
+# ba_track_id: [your track id]
+
+# Google Analytics
+# ga_track_id: false            # Format: UA-xxxxxx-xx
+# ga_domain: zhihaopy.github.io
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "I am nobodies<br>wanna be somebodies"
+sidebar-avatar: /img/pic-me.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# MathJax rendering for layout:page (e.g. post preview)
+page-mathjax: false
+
+
+
+# Friends
+friends: [
+    {
+        title: "Be my friend",
+        href: "http://foo.github.io/"
+    },
+    {
+        title: "if you want",
+        href: "http://bar.github.io"
+    },
+    {
+        title: "via jianshu",
+        href: "http://bar.github.io"
+    },
+        {
+        title: "click me",
+        href: "https://www.jianshu.com/u/e07b02521511"
+    }
+]
